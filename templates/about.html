@@ -2,5 +2,10 @@
 
 {% block content %}
 <h1>About me</h1>
+{% load static %}
+    <div class="happyface_image">
+        <img src="{% static 'images/happyface.jpg' %}" class="img-responsive" style="margin-right: 10px;" />
+    </div>
+
 <p>M.A. Hadley is coder at SDGKU. My hobbies includes Gaming and Coding</p>
 {% endblock content %}
